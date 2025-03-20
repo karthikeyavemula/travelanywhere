@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete Example Website</title>
+  <style>
+    /* Basic styling for the website */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    /* Header styling */
+    #header {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    /* Container for main content */
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Text styles */
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    p, ul, ol, table {
+      margin-top: 15px;
+    }
+
+    /* Table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    /* Image styling */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Link styling */
+    a {
+      color: blue;
+      text-decoration: underline;
+    }
+
+    /* Footer styling */
+    #footer {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header section -->
+  <div id="header">
+    <h1>Welcome to the Complete Example Website</h1>
+    <p><em>A showcase of basic HTML tags and CSS styling</em></p>
+  </div>
+
+  <!-- Main content section -->
+  <div class="container">
+    <!-- Heading tags -->
+    <h2>About This Page</h2>
+    <p>This page demonstrates various <b>HTML</b> elements and <u>basic CSS</u> styles.</p>
+
+    <!-- Text formatting: bold, italic, underline -->
+    <p>This is an example of <b>bold text</b>, <i>italic text</i>, and <u>underlined text</u>.</p>
+
+    <!-- Unordered list -->
+    <h3>Features Included:</h3>
+    <ul>
+      <li>Basic structure with header, footer, and main content sections</li>
+      <li>Text formatting tags</li>
+      <li>Lists, links, images, and tables</li>
+    </ul>
+
+    <!-- Ordered list -->
+    <h3>HTML Basics</h3>
+    <ol>
+      <li>HTML structure and elements</li>
+      <li>CSS styling</li>
+      <li>Responsive layout design</li>
+    </ol>
+
+    <!-- Image section -->
+    <h3>Sample Image</h3>
+    <p>Below is a sample image included using the <code>&lt;img&gt;</code> tag:</p>
+    <img src="https://via.placeholder.com/800x400" alt="Sample Image">
+
+    <!-- Link section -->
+    <h3>Useful Link</h3>
+    <p>For more resources on HTML, visit <a href="https://www.w3schools.com">W3Schools</a>.</p>
+
+    <!-- Table section -->
+    <h3>HTML Tags Summary</h3>
+    <p>Below is a table summarizing the HTML tags used in this example:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Tag</th>
+          <th>Description</th>
+          <th>Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;b&gt;</td>
+          <td>Defines bold text</td>
+          <td><b>Bold Text</b></td>
+        </tr>
+        <tr>
+          <td>&lt;i&gt;</td>
+          <td>Defines italic text</td>
+          <td><i>Italic Text</i></td>
+        </tr>
+        <tr>
+          <td>&lt;u&gt;</td>
+          <td>Defines underlined text</td>
+          <td><u>Underlined Text</u></td>
+        </tr>
+        <tr>
+          <td>&lt;ul&gt; &amp; &lt;li&gt;</td>
+          <td>Creates an unordered list</td>
+          <td><ul><li>List Item</li></ul></td>
+        </tr>
+        <tr>
+          <td>&lt;ol&gt; &amp; &lt;li&gt;</td>
+          <td>Creates an ordered list</td>
+          <td><ol><li>List Item</li></ol></td>
+        </tr>
+        <tr>
+          <td>&lt;table&gt;</td>
+          <td>Defines a table</td>
+          <td><table><tr><td>Table Cell</td></tr></table></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Form section -->
+    <h3>Contact Form</h3>
+    <p>Fill in your details below:</p>
+    <form action="/submit" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Your Name"><br><br>
+      
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Your Email"><br><br>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <!-- Footer section -->
+  <div id="footer">
+    <p>&copy; 2024 Complete Example Website. All Rights Reserved.</p>
+  </div>
+
+</body>
+</html>
